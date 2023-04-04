@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    margin: 0;
+}
+.header {
+    background-color: #06aed5;
+    color: #fff;
+    display: block;
+    padding: 1em;
+}
+
+.content section {
+    margin-top: 1em;
+}
+
+.content .banner {
+    margin-top: 0 !important;
+}
+
+.content .banner img {
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.cta-button {
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    justify-content: center;
+}
+
+section#customer-quotes {
+    padding-right: 1em;
+    width: 30%;
+}
+
+.quotes-list {
+    padding-inline-start: 0;
+    list-style: none;
+}
+
+.quotes-list li {
+    background-color: whitesmoke;
+    margin-top: 5px;
+    padding: 1em;
+}
+
+section#video {
+    width: 70%;
+}
+
+section#video img {
+    width: -webkit-fill-available;
+}
+
+.footer {
+    background-color: #06aed5;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+section#about-us {
+    padding-right: 1em;
+    width: calc(100%/3);
+}
+
+section#contact-info {
+    padding-right: 1em;
+    width: calc(100%/3);
+}
+
+section#authorized-dealers {
+    padding-right: 1em;
+    width: calc(100%/3);
+}
+
+.partner {
+    height: 50px;
+}
